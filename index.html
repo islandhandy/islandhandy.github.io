@@ -1,5 +1,6 @@
 <html>
 	<head>
+	<title>Island Handy - Vashon Handyman</title>
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 	<script>
 	jQuery(document).ready(function($) {
@@ -167,7 +168,12 @@
 		text-align:center;
 		}
 		#content {
-		margin:0 10% 0 10%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		width:70%;
 		}
 		#lightbox p {
 		text-align:right; 
@@ -177,7 +183,7 @@
 		}
 		#lightbox img {
 		box-shadow:0 0 25px #111;
-		max-width:940px;
+		width: 100%;
 		}
 		#galitem {
 		width: 200px;
